@@ -1,0 +1,58 @@
+export const products = [
+  {
+    id: 1,
+    src: "	https://alistos.in/image/cache/catalog/Bracelets/mm-415x415.jpg",
+    title: "Marble Shell Bracelet",
+    alt: "Marble Shell Bracelet",
+    price: "₹899.00",
+  },
+  {
+    id: 2,
+    src: "https://alistos.in/image/cache/catalog/Bracelets/eeeee-415x415.jpeg",
+    title: "Acrylic Evil Eye Bracelet",
+    alt: "Acrylic Evil Eye Bracelet",
+    price: "₹899.00",
+  },
+  {
+    id: 3,
+    src: "https://alistos.in/image/cache/catalog/Neckpieces/white%20flo2-415x415.jpeg",
+    title: "White Flora 18k Gold Plated",
+    alt: "White Flora 18k Gold Plated",
+    price: "₹599.00",
+  },
+  {
+    id: 4,
+    src: "https://alistos.in/image/cache/catalog/Rings/g-415x415.jpeg",
+    title: "Droplets Solid 18k Gold Plated",
+    alt: "Droplets Solid 18k Gold Plated",
+    price: "₹299.00",
+  },
+  {
+    id: 5,
+    src: "https://alistos.in/image/cache/catalog/Rings/g-415x415.jpeg",
+    title: "Irregular Solid 18k Gold Plated",
+    alt: "Irregular Solid 18k Gold Plated",
+    price: "₹450.00",
+  },
+  {
+    id: 6,
+    src: "https://alistos.in/image/cache/catalog/Earrings/NH852229_15-415x415.jpg",
+    title: "Dangling Pearl -18k Gold Plated",
+    alt: "Dangling Pearl -18k Gold Plated",
+    price: "₹1,999.00",
+  },
+  {
+    id: 7,
+    src: "https://alistos.in/image/cache/catalog/Bracelets/alistos%20(2)%20(1)-415x415.png",
+    title: "Pearly Open Bracelet",
+    alt: "Pearly Open Bracelet",
+    price: "₹799.00",
+  },
+  {
+    id: 8,
+    src: "	https://alistos.in/image/cache/catalog/earrings2/ri-415x415.jpg",
+    title: "Rhinestones Earrings",
+    alt: "Rhinestones Earrings",
+    price: "₹1,999.00",
+  },
+];

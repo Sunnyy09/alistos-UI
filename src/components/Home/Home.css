@@ -1,0 +1,112 @@
+.inner2 {
+  color: white;
+  padding: 15px;
+}
+
+.promo-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.promo-sale {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+@media (max-width: 576px) {
+  .promo-title {
+    font-size: 20px;
+  }
+  .promo-sale {
+    font-size: 14px;
+  }
+}
+
+.banner4 {
+  position: relative;
+  display: block;
+}
+
+.inner2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.promo-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.promo-sale {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+@media (max-width: 576px) {
+  .promo-title {
+    font-size: 20px;
+  }
+  .promo-sale {
+    font-size: 14px;
+  }
+}
+
+.banner4 {
+  position: relative;
+  overflow: hidden;
+}
+
+.banner4 img {
+  transition: transform 0.4s ease-in-out;
+}
+
+.banner4:hover img {
+  transform: scale(1.1);
+}
+
+hr {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.nav-item {
+  position: relative;
+  display: inline-block;
+}
+
+.nav-item .nav-link {
+  font-size: 14px;
+  font-weight: 500;
+  color: black;
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 0;
+  transition: color 0.3s ease-in-out;
+  margin-right: 10px;
+  text-transform: uppercase;
+}
+
+.underline {
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  height: 2px;
+  width: 0;
+  background-color: black;
+  transition: width 0.4s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.nav-item:hover .nav-link {
+  color: #bd9d88;
+}
+
+.nav-item:hover .underline {
+  width: 50%;
+  background-color: #bd9d88;
+}
