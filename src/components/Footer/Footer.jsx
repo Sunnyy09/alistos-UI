@@ -239,7 +239,7 @@ const Footer = () => {
               <a href="#" className="me-3">
                 <i className="fa-brands fa-facebook-f"></i>
               </a>
-              <a href="#" className="text-light">
+              <a href="#" className="text-dark">
                 <i className="fa-brands fa-instagram"></i>
               </a>
             </div>
